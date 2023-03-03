@@ -1,0 +1,569 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: "myfont";
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url(./font/Roboto-Bold.ttf);
+}
+
+body{
+
+    overflow-x: hidden;
+}
+
+.parent1{
+
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363543;
+}
+
+.nav{
+
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute; 
+    align-self: flex-start;
+    /* background-color: tomato; */
+}
+
+.left-content{
+
+    width: 60vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+.happy-emoji{
+
+    width: 2.3vw;
+}
+
+.name-heading{
+
+    color: white;
+}
+
+.list-item{
+
+    width: 40vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #716e6e;
+    /* background-color: brown; */
+}
+
+.home{
+
+    color: white;
+}
+
+.list{
+
+    list-style: none;
+}
+
+.emoji-text{
+
+    width: 10vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blueviolet; */
+}
+
+.right-content1{
+
+    width: 25vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.icon-parent{
+
+    width: 10vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+}
+
+.middle-content1{
+
+    width: 78vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+
+.circle{
+
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    background-color: #282834;
+}
+
+.profile-picture{
+
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    top: 16%;
+    align-self: flex-end;
+}
+
+.name-services{
+
+    width: 78vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* background-color: violet; */
+}
+
+.name-section{
+
+    width: 37vw;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: tomato; */
+}
+
+.name-container{
+
+    width: 37vw;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.im{
+
+    font-size: xx-large;
+    color: #C1C1C1;
+}
+
+.my-name{
+
+    color: white;
+    font-size: 52px;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.line{
+
+    width: 12vw;
+    height: 5px;
+    position: absolute;
+    background-color: #FCC419;
+}
+
+.para1{
+
+    color: #716e6e;
+    font-size: 21px;
+    position: relative;
+    top: 5%;
+    line-height: 30px;
+    
+}
+
+.para2{
+
+    color: #716e6e;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.showmore{
+
+    width: 10vw;
+    height: 3vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.icons-div{
+
+    width: 17vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: teal; */
+}
+
+.circles-icons{
+
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 2px  #282834;
+    background-color:#363543;
+}
+
+.icons1{
+
+    width: 25px;
+    height: 25px;
+}
+
+.showmore-text{
+
+    color: #FCC419;
+}
+
+.services-section{
+
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    /* background: tomato; */
+}
+
+.services-heading{
+
+    color: #C1C1C1;
+
+}
+
+.header-icon{
+
+    width: 77.8vw;
+    height: 20vh;
+    position: absolute;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 85%;
+    box-shadow: 0px 0px 3px 2px #282834;
+    background-color: #363543;
+}
+
+.box-icons{
+
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282834;
+
+}
+
+.meta-text{
+
+    width: 8vw;
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #716e6e; */
+}
+
+.google-icon{
+
+    width: 100px;
+}
+
+.linkedin-icon{
+
+    width: 40px;
+    height: 40px;
+}
+
+.slack-icon{
+
+    width: 40px;
+    height: 40px;
+}
+
+.white{
+
+    color: white;
+}
+
+.parent2{
+
+    width: 100vw;
+    height: 165vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282834;
+}
+
+.main-div{
+
+    width: 77.8vw;
+    height: 120vh;
+    display: flex;
+    position: absolute;
+    /* background-color: rgb(239, 151, 8); */
+}
+
+.middle-content{
+
+    width:77.8vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: tomato; */
+}
+
+.left-content2{
+
+    width: 34vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    /* background-color: violet; */
+}
+
+.text1{
+
+    color: white;
+    font-size: 55px;
+}
+
+.right-content{
+
+    width: 37vw;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* background-color: violet; */
+}
+
+.right-boxes{
+
+    width: 37vw;
+    height: 21vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* background-color: black; */
+    border-bottom:1px solid #716e6e;
+}
+
+.img-text{
+
+    width: 32vw;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(2, 86, 90); */
+}
+
+.arrow{
+
+    align-self: center;
+}
+
+.ux-ui{
+
+    width: 28vw;
+}
+
+.ui-ux{
+
+    width: 11vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color:slategray; */
+}
+
+.front-end-develop{
+
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color:slategray; */
+}
+
+.mobile-app{
+
+    width: 33vw;
+}
+
+.mobile-app-develop{
+
+    width: 16vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color:slategray; */
+}
+
+.images{
+
+    width: 15vw;
+    height: 18vh;
+}
+
+.para-down1{
+
+    color: #C1C1C1;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.num-text-parent{
+
+    width: 24vw;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: teal; */
+}
+
+.child-num-text{
+
+    width: 10vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+
+.text-num{
+
+    width: 10vw;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+
+.heading-yellow{
+
+    color: #FCC419;
+}
+
+.para3{
+
+    color: #C1C1C1;
+    font-size: small;
+}
+
+.last-parent{
+
+    width: 100vw;
+    height: 45vh;
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.last-child{
+
+    width: 77.8vw;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: violet; */
+}
+
+.boxes-last{
+
+    width: 24.93vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    background-color: #363543;
+}
+
+.last-work{
+
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+
+.last-circles{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282834;
+}
+
+.last-icons{
+
+    width: 35px;
+    height: 35px;
+}
+
+.footer{
+
+    width: 100vw;
+    height: 10vh;
+    background-color: #363543;
+    opacity: 0.7;
+    position: absolute;
+    align-self: flex-end;
+}
+
+.para4{
+
+    color: #C1C1C1;
+    font-size: medium;
+    line-height: 25px;
+}
